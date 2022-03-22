@@ -326,9 +326,15 @@
                 
                 <div class="container">
                 	<ul class="social-list">
-                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon"><i class="fa fa-facebook"></i></span></a></li>                    
+                		<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon"><i class="fa fa-facebook"></i></span></a></li>
+                        <form action="upload.php" method="post" enctype="multipart/form-data">
+                            PHP test bestand uploaden:
+                            <input type="file" name="fileToUpload" id="fileToUpload">
+                            <input type="submit" value="Upload Image" name="submit">
+                          </form>                    
                     </ul>
                 </div>
+                
                 
             </section>
             <!-- End social section -->
